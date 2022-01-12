@@ -14,6 +14,7 @@ beautifulsoup4 = "^4.10.0"
 [tool.poetry.dev-dependencies]
 pytest = "^6.2.5"
 black = "^21.12b0"
+datamodel-code-generator = {extras = ["http"], version = "^0.11.15"}
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
